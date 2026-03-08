@@ -4,35 +4,22 @@ Esta é a versão do **Poupapp** refatorada para utilizar **Tailwind CSS**. O Po
 
 ## O que mudou na Migração?
 
-Ao sair dos CSS Modules para o Tailwind, o projeto ganhou:
-
-- **Zero arquivos CSS extras**: Estilização _inline_ diretamente nos componentes.
-- **Design Tokens Dinâmicos**: Uso de variáveis de tema (como `primaryhighlight`) integradas ao `tailwind.config.js`.
-- **Responsividade Simplificada**: Uso de prefixos como `md:` e `lg:` em vez de Media Queries manuais.
+Ao sair dos CSS Modules para o Tailwind, o projeto pode ser alterado permitindo deixar zero arquivos CSS extras, isso pode ser feito usando estilização _inline_ diretamente nos componentes.
 
 ## Funcionalidades
 
 - **Resumo Financeiro**: Visualização clara do orçamento diário disponível.
 - **Gestão de Contas**: Listagem de múltiplas contas bancárias e seus respectivos saldos.
 - **Histórico de Transações**: Acompanhamento de receitas e despesas com categorização visual (entrada/saída).
-- **Metas de Economia**: Barra de progresso visual estilizada com `transition-all` para monitorar o status.
-- **Interface Consistente**: Design system baseado em classes utilitárias para garantir espaçamentos e cores uniformes.
+- **Metas de Economia**: Barra de progresso visual para monitorar o status de economia.
+- **Interface Responsiva**: Design limpo utilizando CSS Modules e variáveis globais para consistência visual.
 
 ## Tecnologias Utilizadas
 
 - **React 19**: Biblioteca principal para construção da interface.
-- **Vite**: Ferramenta de build de alta performance.
+- **Vite**: Ferramenta de build rápida para o desenvolvimento frontend.
 - **Tailwind CSS**: Framework CSS utilitário para estilização rápida e escalável.
 - **Intl API**: Formatação nativa de moedas (BRL) e datas.
-- **Lucide React / SVGs**: Ícones leves integrados como componentes.
+- **SVG**: Ícones customizados e leves integrados como componentes React.
 
-## Nova Estrutura de Componentes (Tailwind Style)
-
-A arquitetura continua modular, mas agora utiliza o poder das classes do Tailwind:
-
-- **Card**: Utiliza `bg-neutraldarker`, `rounded-lg` e `p-4` para criar containers consistentes.
-- **Typography**: Abstração que mapeia variantes (h1, h2, body) para classes como `text-2xl font-bold` ou `text-sm text-gray-400`.
-- **ProgressBar**: Implementada com uma div pai (`bg-neutraldarker overflow-hidden`) e uma div filha dinâmica (`bg-primaryhighlight transition-all duration-500`).
-- **List / ListItem**: Utiliza `flex flex-col gap-2` para organização estrutural sem seletores CSS complexos.
-
-Desenvolvido com foco em performance e DX por felipecoelhodev.
+Desenvolvido por felipecoelhodev.
