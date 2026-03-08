@@ -1,5 +1,5 @@
 # Poupapp usando Tailwind CSS
-Esta é a versão do **Poupapp** refatorada para utilizar **Tailwind CSS**. Link da versão usando css-modules: [https://github.com/felipecoelhodev/poupapp-tailwindcss](https://github.com/felipecoelhodev/poupapp-css-modules) <br>O Poupapp é uma representação apenas visual de um dashboard de finanças pessoais moderno e intuitivo, desenhado para reduzir a ansiedade financeira através de uma interface limpa que centraliza saldos, transações e metas de economia.
+Esta é a versão do **Poupapp** refatorada para utilizar **Tailwind CSS**. Link da versão usando css-modules: https://github.com/felipecoelhodev/poupapp-css-modules <br>O Poupapp é uma representação apenas visual de um dashboard de finanças pessoais moderno e intuitivo, desenhado para reduzir a ansiedade financeira através de uma interface limpa que centraliza saldos, transações e metas de economia.
 
 ## O que mudou na Migração?
 
